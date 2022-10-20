@@ -12,13 +12,18 @@ interface IPriceItem {
   templateUrl: './pricing-page.component.html',
   styleUrls: ['./pricing-page.component.scss']
 })
+
+
+
 export class PricingPageComponent implements OnInit {
 
   priceTable: IPriceItem[] = [];
 
-  constructor() { }
+  constructor(
+
+ ) { }
 
   ngOnInit(): void {
   }
 
-}
+} 
